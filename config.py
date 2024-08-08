@@ -17,8 +17,6 @@ INIT_TEMP = 0.07  # Learnable temperature parameter based on CLIP paper
 TRAIN_CSV = PATH + "/data/train.csv"
 TEST_CSV = PATH + "/data/test.csv"
 VAL_CSV = PATH + "/data/val.csv"
-POS_EMBED_PKL = PATH + "/data/pos_embeddings.pkl"
-NEG_EMBED_PKL = PATH + "/data/neg_embeddings.pkl"
 
 
 CKPT_DIR = PATH + "/models"
